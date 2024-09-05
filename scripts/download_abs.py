@@ -3,12 +3,11 @@ import requests
 import zipfile
 
 url_list = [
-    "https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files/SA2_2021_AUST_SHP_GDA2020.zip",
-    "https://www.abs.gov.au/census/find-census-data/datapacks/download/2021_GCP_SA2_for_AUS_short-header.zip",
-    "https://www.abs.gov.au/census/find-census-data/datapacks/download/2021_WPP_SA2_for_AUS_short-header.zip"
+    "https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files/POA_2021_AUST_GDA2020_SHP.zip",
+    "https://www.abs.gov.au/census/find-census-data/datapacks/download/2021_GCP_POA_for_AUS_short-header.zip"
 ]
 
-target_directory = "data\\raw\\ABS_data"
+target_directory = "data/raw/ABS_data"
 
 # Create the ABS_data directory if it doesn't exist
 if not os.path.exists(target_directory):
