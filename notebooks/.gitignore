@@ -1,0 +1,9 @@
+# Ignore log files
+*.log
+
+# Ignore environment variables file
+.env
+
+# Ignore specific data files
+data/*.csv
+

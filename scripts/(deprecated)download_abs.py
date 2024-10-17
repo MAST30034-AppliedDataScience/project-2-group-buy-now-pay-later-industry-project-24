@@ -1,3 +1,7 @@
+# !!! REPLACED WITH LOCAL API CALL SCRIPT
+
+"""
+
 import os
 import requests
 import zipfile
@@ -30,3 +34,5 @@ for url in url_list:
         print(f"File {file_name} downloaded and extracted.")
     else:
         print(f"File {file_name} already exists. Skipping download.")
+
+"""
