@@ -130,7 +130,6 @@ dmypy.json
 .pyre/
 
 # data
-data/curated/
 data/tables/
 
 # OSX .DS_Store file
